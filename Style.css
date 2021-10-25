@@ -1,3 +1,38 @@
 body {
 	font-family: 'Istok Web', sans-serif;
 }
+
+.navbar {
+	background-color: #ffffff;
+	box-shadow: 0 2px 4px 0 #000000;
+	min-height: 80px;
+}
+
+.navbar .nav-item .nav-link{
+	color: #0a9f4e;
+	font-size: 16px;
+}
+
+.navbar .nav-item .nav-link:hover{
+	color: #eb1d1f;
+	font-size: 16px;
+}
+
+.Logo{
+	min-width: 160px;
+	max-width: 180px;
+}
+
+.navbar-toggler-icon {font-size: 40;}
+.navbar-toggler-icon:focus {outline: none;}
+
+
+/*@media(max-width:400px) {
+	#menu{
+		display:none;
+	} 
+}*/
+/* 
+0a9f4e Color Verde
+f2172b Color Rojo
+ */
