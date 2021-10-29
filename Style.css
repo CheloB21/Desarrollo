@@ -1,30 +1,63 @@
 body {
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'IstokWeb';}
+
+	.encabezado{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		text-align: center;
+		font-size: 30px;
+		font-style: bold;
+		color: #ffffff;
+	}
+
+	.cuadrado{
+		border-top-left-radius: 160px;
+		border-bottom-right-radius: 160px;
+		padding:5px;
+		background-color: #0a9f4e;
+		width: 800px;
+	}
+	
+	.textocuerpo{
+		font-size: 24px;
+		text-align: center;
+		margin: 20px;
+		font-style: italic;
+	}
+
+.topmargin-lg {
+	margin-top: 104px;
 }
 
 .navbar {
 	background-color: #ffffff;
 	box-shadow: 0 2px 4px 0 #000000;
-	min-height: 80px;
+	min-height: 100px;
+}
+
+.largofotos{
+	height: 500px;
 }
 
 .navbar .nav-item .nav-link{
 	color: #0a9f4e;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .navbar .nav-item .nav-link:hover{
 	color: #eb1d1f;
-	font-size: 16px;
+	font-size: 23px;
+	font-variant: initial;
 }
 
 .Logo{
-	min-width: 160px;
-	max-width: 180px;
+	min-width: 200px;
+	max-width: 220px;
 }
 
 .navbar-toggler-icon {font-size: 40;}
 .navbar-toggler-icon:focus {outline: none;}
+
 
 
 /*@media(max-width:400px) {
