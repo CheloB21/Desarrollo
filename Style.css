@@ -11,6 +11,8 @@ body {
 	}
 
 	.cuadrado{
+		margin: 0 auto;
+		margin-top: 25px;
 		border-top-left-radius: 160px;
 		border-bottom-right-radius: 160px;
 		padding:5px;
@@ -22,7 +24,7 @@ body {
 		font-size: 24px;
 		text-align: center;
 		margin: 20px;
-		font-style: italic;
+		font-style: normal;
 	}
 
 .topmargin-lg {
@@ -58,7 +60,29 @@ body {
 .navbar-toggler-icon {font-size: 40;}
 .navbar-toggler-icon:focus {outline: none;}
 
+.img-fluid{
+	margin-top: 60px;
+	margin-left: 15px;
+	border-radius: 2px;
+	width: 800px;
+	height: 800px;
+}
 
+.promociones img{
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.promociones:hover img{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.containernavbar{
+	overflow: hidden;
+}
 
 /*@media(max-width:400px) {
 	#menu{
@@ -69,3 +93,11 @@ body {
 0a9f4e Color Verde
 f2172b Color Rojo
  */
+
+
+@media (max-width: 575.98px) { 
+	h1{ font-size: 18px; line-height: normal;}
+	.cuadrado {font-size: 14px; line-height: normal; width: 400px;}
+	.textocuerpo { font-size: 14px;} 
+	.Logo{ width: 150px;}
+}
