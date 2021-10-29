@@ -84,6 +84,18 @@ body {
 	overflow: hidden;
 }
 
+.estilo{
+	margin-top: 40px;
+	font-size: 40px;
+	color:#ffffff
+}
+
+.regulaciones{
+	height: 400px;
+	width: 400px;
+	margin-bottom: 40px;
+}
+
 /*@media(max-width:400px) {
 	#menu{
 		display:none;
