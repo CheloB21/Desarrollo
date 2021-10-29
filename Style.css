@@ -19,6 +19,14 @@ body {
 		background-color: #0a9f4e;
 		width: 800px;
 	}
+
+	.cuadrado2{
+		margin: 0 auto;
+		border-top-right-radius: 160px;
+		border-bottom-left-radius: 160px;
+		background-color: #0a9f4e;
+		width: 500px;
+	}
 	
 	.textocuerpo{
 		font-size: 24px;
@@ -85,8 +93,7 @@ body {
 }
 
 .estilo{
-	margin-top: 40px;
-	font-size: 40px;
+	font-size: 30px;
 	color:#ffffff
 }
 
